@@ -41,5 +41,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="tgv-pf-tgH">
+            <objects>
+                <viewController id="BMU-5G-deA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kcp-sR-xEp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uoj-ta-fMd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fsl-n4-wGQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bge-Kj-mqV">
+                                <rect key="frame" x="78.5" y="90" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yomoncio jaja" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qR-DH-UjP">
+                                <rect key="frame" x="134.5" y="359" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bge-Kj-mqV" firstAttribute="centerX" secondItem="fsl-n4-wGQ" secondAttribute="centerX" id="NCL-fl-KPk"/>
+                            <constraint firstItem="1qR-DH-UjP" firstAttribute="top" secondItem="bge-Kj-mqV" secondAttribute="bottom" constant="30" id="Ugw-Wq-jlo"/>
+                            <constraint firstItem="bge-Kj-mqV" firstAttribute="top" secondItem="Kcp-sR-xEp" secondAttribute="bottom" constant="70" id="V7H-lI-p5A"/>
+                            <constraint firstItem="1qR-DH-UjP" firstAttribute="centerX" secondItem="fsl-n4-wGQ" secondAttribute="centerX" id="mhG-ed-Lae"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e6E-4l-eZK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042" y="108"/>
+        </scene>
     </scenes>
 </document>
